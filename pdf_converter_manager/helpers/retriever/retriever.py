@@ -22,7 +22,7 @@ def create_and_retrieve_rotated_images(root_path: str, list_images: list) -> Non
     From each original picture we need to check if we need to change it's orientation and then update the path
     of the rotated image.
     :param root_path: absolute path of the temporary folder.
-    :param list_images: list that contain the path of the original pictures.
+    :param list_images: list that contains the path of the original pictures.
     :return: None
     """
     # Creation of the temporary folder that will contain all the files necessary for the computation
@@ -64,7 +64,7 @@ def create_and_retrieve_compressed_images(root_path: str, list_images: list) -> 
     Since that PyPDF is not supporting the PDF compression, from each original picture and then finally rewrite
     list_images with the path of the compressed pictures.
     :param root_path: absolute path of the temporary folder.
-    :param list_images: list that contain the path of the original pictures.
+    :param list_images: list that contains the path of the original pictures.
     :return: None
     """
     # Creation of the temporary folder that will contain all the files necessary for the computation
@@ -100,7 +100,7 @@ def create_and_retrieve_de_interlaced_images(root_path: str, list_images: list) 
     From each original picture we need to check if we need to create a new image in order to get rid of the interlace
     property, update then the path of the de-interlaced image.
     :param root_path: absolute path of the temporary folder.
-    :param list_images: list that contain the path of the original pictures.
+    :param list_images: list that contains the path of the original pictures.
     :return: None
     """
     # Creation of the temporary folder that will contain all the files necessary for the computation

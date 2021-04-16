@@ -21,8 +21,8 @@ def check_mandatory_dependencies(list_images: list, main_root_path: str, compres
         if (not compression and "mypdf.pdf" == file) or (compression and "compressed_mypdf.pdf" == file):
             print("The file with that name already exist! Skipping Pdf creation")
             return False
-
-    return True
+    else:
+        return True
 
 
 def generate_tmp_folder(root_path=None) -> str:
